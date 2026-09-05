@@ -45,7 +45,7 @@ en este caso salio bien sin ninguna amenaza detectada
 
 ## 2) ¿Qué es VirtualBox?, ¿Qué es WSL?, ¿Qué es VMWARE?, ¿Qué es QEMU? Y ¿Qué es KVM?. Desarrolle la búsqueda de cada una de las tecnologías presentadas y proceda a explicar sus características, diferencias, ventajas y aplicaciones.
 
-Visión general creada por IA 
+Explicacion general creada por IA 
 # Glosario de Tecnologías de Virtualización y Entornos Operativos
 
 > 🤖 **Nota de autoría:** Este documento fue generado de forma automática por un asistente de Inteligencia Artificial (IA) a petición del usuario.
@@ -78,6 +78,22 @@ Este documento ofrece un resumen rápido sobre el funcionamiento y propósito de
 * **Definición:** Es un módulo que convierte al propio núcleo de Linux en un hipervisor de tipo 1 (con acceso directo al hardware).
 * **Propósito:** Gestionar máquinas virtuales en Linux con un rendimiento prácticamente nativo.
 * **Características:** Suele combinarse con **QEMU**, donde KVM acelera el procesador/memoria y QEMU se encarga de simular los componentes virtuales de disco, red y periféricos.
+
+## Comparacion
+
+| Tecnología | caracteristica | Diferencias  | Ventajas  | Aplicaciones |
+| :--- | :--- | :--- | :--- | :--- |
+| **VirtualBox** | Hipervisor Tipo 2 (Sobre el S.O.) | Gratuito, emula hardware completo por software mediante una interfaz gráfica sencilla. | • Fácil de usar.<br>• Multiplataforma (Windows, macOS, Linux).<br>• Gran comunidad y soporte. | • Estudiantes y aprendizaje.<br>• Probar sistemas operativos de forma rápida.<br>• Entornos de desarrollo aislados simples. |
+| **WSL** | Subsistema / Traducción de llamadas | No es una máquina virtual completa; comparte el núcleo o corre un núcleo Linux optimizado dentro de Windows. | • Consumo mínimo de recursos.<br>• Rendimiento muy rápido.<br>• Integración directa con el sistema de archivos de Windows. | • Desarrolladores en Windows que necesitan herramientas Linux (Docker, Git, Bash).<br>• Entornos de programación web. |
+| **VMware** | Hipervisor Tipo 1 (ESXi) o Tipo 2 (Workstation) | Software comercial de alto rendimiento con gestión avanzada de redes y recursos empresariales. | • Máximo rendimiento gráfico y de CPU.<br>• Muy estable y robusto.<br>• Funciones avanzadas de clonación y snapshots. | • Entornos corporativos y centros de datos.<br>• Administradores de sistemas y redes profesionales.<br>• Pruebas de software a gran escala. |
+| **QEMU** | Emulador y Virtualizador puro | Puede emular arquitecturas de hardware distintas a la del procesador real (ej. emular ARM en x86). | • Flexibilidad extrema.<br>• Soporta casi cualquier arquitectura.<br>• Es de código abierto y ligero. | • Desarrollo de sistemas embebidos y firmware.<br>• Depuración de kernels.<br>• Ejecución de software antiguo o de otros procesadores. |
+| **KVM** | Hipervisor Tipo 1 (Integrado en Linux) | Convierte el núcleo de Linux en un hipervisor. Se usa junto con QEMU para el hardware virtual. | • Rendimiento casi nativo (acceso directo al hardware).<br>• Excelente escalabilidad.<br>• Integrado en el ecosistema Linux. | • Servidores en la nube (infraestructura cloud).<br>• Virtualización empresarial en servidores Linux.<br>• Usuarios avanzados de Linux. |
+
+
+
+
+
+  
 
 
 
