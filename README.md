@@ -10,7 +10,7 @@ primero nos metemos a configuracion
 luego nos metemos en "windows update" y verificamos estar con la ultima actualizacion
 
 
-<img width="1667" height="957" alt="image" src="https://github.com/user-attachments/assets/23cbdcd4-3afa-4e33-b0e1-64897ff7346a" />
+<img width="1600" height="890" alt="image" src="https://github.com/user-attachments/assets/23cbdcd4-3afa-4e33-b0e1-64897ff7346a" />
 en este caso el sistema esta al dia, pero si no pues la idea seria buscar actualizaciones y descargarlas, tambien existe la opcion de actualizar el sistema automaticamente pero si no estoy mal ya es una funcion implementada en la mayoria de dispositivos modernos
 
 
