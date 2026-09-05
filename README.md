@@ -43,6 +43,44 @@ en este caso salio bien sin ninguna amenaza detectada
 
 <img width="447" height="373" alt="image" src="https://github.com/user-attachments/assets/390619a4-7bdc-470f-8624-ad85cc6aaf08" />
 
+## 2) ¿Qué es VirtualBox?, ¿Qué es WSL?, ¿Qué es VMWARE?, ¿Qué es QEMU? Y ¿Qué es KVM?. Desarrolle la búsqueda de cada una de las tecnologías presentadas y proceda a explicar sus características, diferencias, ventajas y aplicaciones.
+
+Visión general creada por IA 
+# Glosario de Tecnologías de Virtualización y Entornos Operativos
+
+> 🤖 **Nota de autoría:** Este documento fue generado de forma automática por un asistente de Inteligencia Artificial (IA) a petición del usuario.
+
+Este documento ofrece un resumen rápido sobre el funcionamiento y propósito de **VirtualBox**, **WSL**, **VMware**, **QEMU** y **KVM**.
+
+---
+
+### 📦 VirtualBox
+* **Definición:** Es un software de virtualización de tipo 2 (se ejecuta sobre un sistema operativo principal) desarrollado por Oracle.
+* **Propósito:** Permite crear máquinas virtuales (VM) para instalar y usar sistemas operativos completos de forma aislada.
+* **Características:** Es gratuito, de código abierto y muy popular entre usuarios domésticos por su interfaz visual intuitiva.
+
+### 🐧 WSL (Windows Subsystem for Linux)
+* **Definición:** Es una característica de Windows que permite ejecutar un entorno de Linux nativo directamente en Windows, sin la carga de una máquina virtual tradicional.
+* **Propósito:** Está diseñado para desarrolladores que necesitan herramientas de línea de comandos de Linux dentro de Windows.
+* **Características:** Traduce de forma eficiente las llamadas del sistema de Linux para el núcleo de Windows, ofreciendo un gran rendimiento.
+
+### 🏢 VMware
+* **Definición:** Es una familia de productos de virtualización (como VMware Workstation o ESXi) orientados tanto al usuario de escritorio como a entornos corporativos.
+* **Propósito:** Crear entornos virtuales de alto rendimiento y estabilidad comercial para servidores y estaciones de trabajo.
+* **Características:** Destaca por su optimización avanzada de recursos, gestión de redes complejas y herramientas empresariales.
+
+### ⚙️ QEMU (Quick Emulator)
+* **Definición:** Es un emulador y virtualizador de código abierto extremadamente flexible.
+* **Propósito:** Capaz de emular arquitecturas de hardware completamente diferentes (por ejemplo, ejecutar código ARM en un ordenador x86).
+* **Características:** Funciona mediante emulación pura por software, lo que puede ser lento a menos que se combine con un acelerador por hardware.
+
+### 🖥️ KVM (Kernel-based Virtual Machine)
+* **Definición:** Es un módulo que convierte al propio núcleo de Linux en un hipervisor de tipo 1 (con acceso directo al hardware).
+* **Propósito:** Gestionar máquinas virtuales en Linux con un rendimiento prácticamente nativo.
+* **Características:** Suele combinarse con **QEMU**, donde KVM acelera el procesador/memoria y QEMU se encarga de simular los componentes virtuales de disco, red y periféricos.
+
+
+
 
 
 
